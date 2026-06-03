@@ -1,3 +1,8 @@
+//Naomi Rodriguez
+//06/01/2026
+//AI Quiz Game
+//Changed: 
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -7,6 +12,9 @@ public class Main {
     public static final int NUMBER_OF_QUESTIONS = 10;
     public static final int NUMBER_OF_CHOICES = 4;
 
+    //Data structures for data of the questions and answers
+    //Each question is stored in a question array
+    //Easy set of answers is storedd in the dual dimensionall array
     public static void main(String[] args) {
         String[] questions = new String[NUMBER_OF_QUESTIONS];
         String[][] answers = new String[NUMBER_OF_QUESTIONS][NUMBER_OF_CHOICES];
